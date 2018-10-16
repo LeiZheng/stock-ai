@@ -29,3 +29,4 @@ plt.show()
 high_prices = stockData.loc[:,'adjHigh'].as_matrix()
 low_prices = stockData.loc[:,'adjLow'].as_matrix()
 mid_prices = (high_prices+low_prices)/2.0
+
